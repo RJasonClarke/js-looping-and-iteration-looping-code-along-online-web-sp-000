@@ -1,5 +1,4 @@
 // Code your solutions in this file
-writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 const cards = ["Ada", "Brendan", "Ali"];
 function writeCards(cards) {
