@@ -6,5 +6,5 @@ function writeCards(cards) {
     console.log("Thank you ${cards[i]} for the gift")
   }
 
-  return gifts;
+  return cards;
 }
