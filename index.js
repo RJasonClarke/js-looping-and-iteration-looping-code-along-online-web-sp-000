@@ -3,6 +3,7 @@
 const cards = ["Lisa", "Kaitlin", "Jan"];
 function writeCards(cards, event) {
   let birthday =[];
+  event ="suprise";
   for (let i = 0; i < writeCards.length; i++) {
     console.log("Thank you ${cards[i]} for the gift")
   }
