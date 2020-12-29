@@ -1,12 +1,18 @@
-// Code your solutions in this file
+const names = ['Lisa', 'Kaitlin', 'Jan'];
 
-const cards = ["Lisa", "Kaitlin", "Jan"];
-function writeCards(cards, event) {
+function writeCards(names, event) {
   let birthday =[];
-  event ="suprise";
-  for (let i = 0; i < writeCards.length; i++) {
-    console.log("Thank you ${cards[i]} for the gift")
+  event = "surprise";
+  for (let i= 0; i < names.length; i++) {
+  birthday[i] = 'Thank you, '+ names[i] +', for the wonderful ' +event+' gift!';
   }
-
-  return cards;
+  return birthday;
 }
+
+
+let number = 10;
+function countdown (number) {
+  while (number >= 0) {
+    console.log(number--);
+  }
+} 
